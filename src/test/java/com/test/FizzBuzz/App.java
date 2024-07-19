@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 public class App {
     public static void main(String[] args) {
-        String sentence = "один пять четыре пять семь три три три восемь ноль один десять один?";
+        String sentence = "один авангард авангард пять четыре пять семь три три три восемь ноль один десять один?";
 
         List<String> words = new ArrayList<>();
         for (String s : sentence.split(" ")) {
